@@ -1,0 +1,21 @@
+{
+  "_name_or_path": "YOLOv10-Fire-and-Smoke-Detection",
+  "model_type": "yolo",
+  "image_size": 640,
+  "num_labels": 2,
+  "id2label": {
+    "0": "background",
+    "1": "fire",
+    "2": "smoke"
+  },
+  "label2id": {
+    "background": 0,
+    "fire": 1,
+    "smoke": 2
+  },
+  "framework": "pytorch",
+  "task": "object-detection",
+  "confidence_threshold": 0.25,
+  "iou_threshold": 0.45,
+  "architecture": "YOLOv10",
+}
