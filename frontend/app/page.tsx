@@ -28,7 +28,7 @@ interface VideoDetection {
 }
 
 export default function FireDetectionApp() {
-  const API_BASE = "http://172.20.10.7:8080"
+  const API_BASE = "https://ctpa7f74595d21-8080.proxy.runpod.net"
 
   // Tabs & global state
   const [activeTab, setActiveTab] = useState("upload")
